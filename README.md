@@ -70,29 +70,29 @@ Smart AI Recipe Genius is an AI-powered web app that detects vegetables from ima
 ---
 
 ## 📁 Project Structure
+
+```text
 smart_recipe_generator/
-│
 ├── app.py
 ├── requirements.txt
 ├── README.md
+├── .gitignore
 │
 ├── ai/
-│ ├── llm_api.py
-│ ├── recipe_creator.py
-│ ├── health_calc.py
-│ ├── waste_planner.py
-│ └── init.py
+│   ├── llm_api.py
+│   ├── recipe_creator.py
+│   ├── health_calc.py
+│   ├── waste_planner.py
+│   └── __init__.py
 │
 ├── helpers/
-│ ├── img_tools.py
-│ ├── qty_estimator.py
-│ ├── cuisine_data.py
-│ └── init.py
+│   ├── img_tools.py
+│   ├── qty_estimator.py
+│   ├── cuisine_data.py
+│   └── __init__.py
 │
-├── yolo/
-│ └── detect.py
-│
-└── .gitignore
+└── yolo/
+    └── detect.py
 
 ---
 
